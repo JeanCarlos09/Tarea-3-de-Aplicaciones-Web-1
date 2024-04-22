@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    position: relative;
+    background-image: url('../img/encabezado4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 120px; 
+    height: 140px; 
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px; 
+    color: black;
+    position: absolute; 
+    top: 50%;
+    left: 222px; 
+    transform: translateY(-50%);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black; 
+    text-align: center;
+}
+
+.imagen {
+    position: absolute;
+    top: 10px; 
+    right: 140px; 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.datos-personales {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e8fffc;
+}
+.estudios, .experiencia, .capacitaciones {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e8fffc;
+    
+}
+
+.referencias {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #e8fffc;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #5ffd96;
+}
